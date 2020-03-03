@@ -7,10 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67bfbc73-123d-45fd-8cf5-1e27d1c3f05d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CardDeckGame_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/DeckOf52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/DeckOf52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/Suits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/ConsoleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/ConsoleInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,12 +105,24 @@
       <option name="presentableId" value="Default" />
       <updated>1583218587402</updated>
       <workItem from="1583218591539" duration="7800000" />
-      <workItem from="1583234059822" duration="16279000" />
+      <workItem from="1583234059822" duration="19235000" />
     </task>
+    <task id="LOCAL-00001" summary="added README.md file and MANIFEST.MF file to jar building">
+      <created>1583252441368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583252441369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added README.md file and MANIFEST.MF file to jar building" />
+    <option name="LAST_COMMIT_MESSAGE" value="added README.md file and MANIFEST.MF file to jar building" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1583246302795">
@@ -116,30 +133,34 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="406" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1583251399467" />
-    <state width="1320" height="223" key="GridCell.Tab.0.bottom" timestamp="1583250588901">
+    <state x="248" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1583252441159">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583250588901" />
-    <state width="1320" height="223" key="GridCell.Tab.0.center" timestamp="1583250588899">
+    <state x="248" y="27" width="860" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583252441159" />
+    <state width="1320" height="223" key="GridCell.Tab.0.bottom" timestamp="1583253002788">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583250588899" />
-    <state width="1320" height="223" key="GridCell.Tab.0.left" timestamp="1583250588898">
+    <state width="1320" height="223" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583253002788" />
+    <state width="1320" height="223" key="GridCell.Tab.0.center" timestamp="1583253002786">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583250588898" />
-    <state width="1320" height="223" key="GridCell.Tab.0.right" timestamp="1583250588900">
+    <state width="1320" height="223" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583253002786" />
+    <state width="1320" height="223" key="GridCell.Tab.0.left" timestamp="1583253002786">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583250588900" />
+    <state width="1320" height="223" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583253002786" />
+    <state width="1320" height="223" key="GridCell.Tab.0.right" timestamp="1583253002787">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="223" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583253002787" />
     <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583251418080">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583251418080" />
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583250645982">
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583252444966">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583250645982" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583252444966" />
     <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583234059809">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

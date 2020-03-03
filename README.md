@@ -6,10 +6,11 @@ List of games:-
 
 ##Instructions for executing
 
-**Executing JAR**
+##### Executing JAR
 
 First make sure JRE (Java Runtime Environment) is installed on your computer.
-Steps:- 
+
+**Steps**:- 
 1. Download "CardDeckGame.jar" file from [here](https://github.com/sachdevnitin19/card-deck-game/releases/latest)
 2. Open terminal on your computer.
 3. Execute command ```java -jar CardDeckGame.jar```. Make sure "CardDeckGame.jar" file has permission to execute.

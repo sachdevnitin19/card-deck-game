@@ -1,5 +1,6 @@
 package com.nitin.CardDeck;
 
+//Rank of card enum definition with their priority used for comparing cards.
 public enum Rank {
     ACE("ACE", 1),
     TWO("TWO", 2),
