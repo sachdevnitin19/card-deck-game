@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CardDeckGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CardDeckGame_jar</output-path>
+    <root id="archive" name="CardDeckGame.jar">
+      <element id="module-output" name="CardDeckGame" />
+    </root>
+  </artifact>
+</component>
