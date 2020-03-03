@@ -1,10 +1,10 @@
-#Card Deck Game
+# Card Deck Game
 
 Terminal interactive card deck game implemented using Java.
 List of games:-
 1. Ek Patti:- In this game each player is dealt a card and the player who has maximum number card wins and if both have same number card then player having higher priority suit (SPADES>HEART>CLUB>DIAMONDS) wins the round.   
 
-##Instructions for executing
+## Instructions for executing
 
 ##### Executing JAR
 
