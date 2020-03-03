@@ -1,12 +1,11 @@
 package com.nitin.Games;
 
-import java.io.IOException;
-
+//Game interface containing common methods that all card games should have.
 public interface Game {
-    public void start();
+    void start();
 
-    public void addPlayers();
+    void addPlayers();
 
-    public void findWinner();
+    void findWinner();
 
 }

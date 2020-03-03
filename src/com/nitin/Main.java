@@ -11,7 +11,7 @@ public class Main {
         ConsoleInput consoleInput = new ConsoleInput();
         GameFactory gameFactory = new GameFactory();
         System.out.println("$$$$ Welcome $$$$");
-
+        //looping and continuously showing Main Menu options to user unless user enters 0 to quit.
         while (userChoice != 0) {
             System.out.println("#### Main Menu ####");
             System.out.println("\nChoose a game to play");
@@ -25,11 +25,10 @@ public class Main {
 
             if (userChoice == 0) {
                 System.out.println("$$$$ Thanks for playing. Good bye ;) $$$$");
-                break;
-            } else {
-                Game gameToPlay = gameFactory.getGame(availableGames[userChoice - 1], consoleInput);
-                gameToPlay.start();
+                System.exit(1);
             }
+            Game gameToPlay = gameFactory.getGame(availableGames[userChoice - 1], consoleInput);
+            gameToPlay.start();
         }
 
 
