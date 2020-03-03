@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67bfbc73-123d-45fd-8cf5-1e27d1c3f05d" name="Default Changelist" comment="" />
+    <list default="true" id="67bfbc73-123d-45fd-8cf5-1e27d1c3f05d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/nitin/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nitin/Games/EkPatti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nitin/Games/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nitin/Games/GameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nitin/Games/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeckFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/DeckOf52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/DeckOf52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/Suits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/Suits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,11 +50,12 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nitin.Games" />
+      <recent name="com.nitin.CardDeck" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.nitin.CardDeck" />
     </key>
   </component>
   <component name="RunManager">
@@ -84,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583218587402</updated>
-      <workItem from="1583218591539" duration="6117000" />
+      <workItem from="1583218591539" duration="7800000" />
+      <workItem from="1583234059822" duration="14477000" />
     </task>
     <servers />
   </component>
@@ -92,25 +106,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1583225175619">
+    <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1583246302795">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1583225175619" />
-    <state width="1320" height="49" key="GridCell.Tab.0.bottom" timestamp="1583231495223">
+    <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1583246302795" />
+    <state width="1320" height="223" key="GridCell.Tab.0.bottom" timestamp="1583250515316">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="49" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583231495223" />
-    <state width="1320" height="49" key="GridCell.Tab.0.center" timestamp="1583231495221">
+    <state width="1320" height="223" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583250515316" />
+    <state width="1320" height="223" key="GridCell.Tab.0.center" timestamp="1583250515315">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="49" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583231495221" />
-    <state width="1320" height="49" key="GridCell.Tab.0.left" timestamp="1583231495220">
+    <state width="1320" height="223" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583250515315" />
+    <state width="1320" height="223" key="GridCell.Tab.0.left" timestamp="1583250515314">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="49" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583231495219" />
-    <state width="1320" height="49" key="GridCell.Tab.0.right" timestamp="1583231495222">
+    <state width="1320" height="223" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583250515314" />
+    <state width="1320" height="223" key="GridCell.Tab.0.right" timestamp="1583250515316">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="49" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583231495222" />
+    <state width="1320" height="223" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583250515316" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583231784279">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583231784279" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583234059809">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583234059809" />
+    <state x="428" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1583246309128">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="428" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog/0.27.1366.741@0.27.1366.741" timestamp="1583246309128" />
   </component>
 </project>

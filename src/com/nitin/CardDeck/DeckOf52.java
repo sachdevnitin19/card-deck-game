@@ -36,7 +36,12 @@ public class DeckOf52 implements CardDeck {
         if (numOfCards > currentDeckSize) {
             return null;
         }
-        return this.cards.subList(0, numOfCards - 1);
+        List<Card> cardsToReturn = new ArrayList<Card>(numOfCards);
+        while (numOfCards-- > 0) {
+            cardsToReturn.add(this.cards.get(0));
+            this.cards.remove(0);
+        }
+        return cardsToReturn;
     }
 
     @Override
