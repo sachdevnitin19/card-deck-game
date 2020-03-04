@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67bfbc73-123d-45fd-8cf5-1e27d1c3f05d" name="Default Changelist" comment="added comments and some bug fixes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/CardDeck/CardDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nitin/Games/EkPatti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Games/EkPatti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nitin/Games/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Games/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nitin/Games/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Games/GameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nitin/Games/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Games/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nitin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +42,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -105,6 +103,7 @@
       <updated>1583218587402</updated>
       <workItem from="1583218591539" duration="7800000" />
       <workItem from="1583234059822" duration="22694000" />
+      <workItem from="1583303370653" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="added README.md file and MANIFEST.MF file to jar building">
       <created>1583252441368</created>
@@ -169,10 +168,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1320" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583259679830" />
-    <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583257602848">
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583303509186">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583257602848" />
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583303509186" />
     <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583256676050">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
