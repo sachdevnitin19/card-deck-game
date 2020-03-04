@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67bfbc73-123d-45fd-8cf5-1e27d1c3f05d" name="Default Changelist" comment="added comments and some bug fixes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +48,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +66,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.nitin.Main" />
       <module name="CardDeckGame" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -132,14 +131,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="added comments and some bug fixes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583306347179">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1583306347179" />
     <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1583246302795">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="491" y="115" width="544" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1583246302795" />
-    <state x="406" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583251399467">
+    <state x="406" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583306344490">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="406" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1583251399467" />
+    <state x="406" y="183" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1583306344490" />
     <state x="436" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583256720711">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -152,26 +155,26 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="127" y="86" width="1092" height="622" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1583259651807" />
-    <state width="1320" height="176" key="GridCell.Tab.0.bottom" timestamp="1583259679830">
+    <state width="1320" height="92" key="GridCell.Tab.0.bottom" timestamp="1583306361255">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583259679830" />
-    <state width="1320" height="176" key="GridCell.Tab.0.center" timestamp="1583259679829">
+    <state width="1320" height="92" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
+    <state width="1320" height="92" key="GridCell.Tab.0.center" timestamp="1583306361255">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583259679829" />
-    <state width="1320" height="176" key="GridCell.Tab.0.left" timestamp="1583259679827">
+    <state width="1320" height="92" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
+    <state width="1320" height="92" key="GridCell.Tab.0.left" timestamp="1583306361255">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583259679827" />
-    <state width="1320" height="176" key="GridCell.Tab.0.right" timestamp="1583259679830">
+    <state width="1320" height="92" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
+    <state width="1320" height="92" key="GridCell.Tab.0.right" timestamp="1583306361255">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583259679830" />
-    <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583303509186">
+    <state width="1320" height="92" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583307268350">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583303509186" />
+    <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583307268350" />
     <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583256676050">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -188,5 +191,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="175" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1583257056439" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583307328888">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1583307328888" />
   </component>
 </project>
