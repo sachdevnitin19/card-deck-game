@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67bfbc73-123d-45fd-8cf5-1e27d1c3f05d" name="Default Changelist" comment="added comments and some bug fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nitin/Games/EkPatti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nitin/Games/EkPatti.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.nitin.Main" />
       <module name="CardDeckGame" />
@@ -72,9 +72,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="myjar.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/myjar.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.myjar.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.myjar.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -147,38 +156,38 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="436" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1366.741@0.27.1366.741" timestamp="1583256720711" />
-    <state x="248" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1583259940535">
+    <state x="248" y="27" width="860" height="741" key="CommitChangelistDialog2" timestamp="1583311497019">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="248" y="27" width="860" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583259940535" />
+    <state x="248" y="27" width="860" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1583311497019" />
     <state x="127" y="86" width="1092" height="622" key="DiffContextDialog" timestamp="1583259651807">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="127" y="86" width="1092" height="622" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1583259651807" />
-    <state width="1320" height="92" key="GridCell.Tab.0.bottom" timestamp="1583306361255">
+    <state width="1320" height="180" key="GridCell.Tab.0.bottom" timestamp="1583311477031">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="92" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
-    <state width="1320" height="92" key="GridCell.Tab.0.center" timestamp="1583306361255">
+    <state width="1320" height="180" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583311477031" />
+    <state width="1320" height="180" key="GridCell.Tab.0.center" timestamp="1583311477030">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="92" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
-    <state width="1320" height="92" key="GridCell.Tab.0.left" timestamp="1583306361255">
+    <state width="1320" height="180" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583311477030" />
+    <state width="1320" height="180" key="GridCell.Tab.0.left" timestamp="1583311477029">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="92" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
-    <state width="1320" height="92" key="GridCell.Tab.0.right" timestamp="1583306361255">
+    <state width="1320" height="180" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583311477029" />
+    <state width="1320" height="180" key="GridCell.Tab.0.right" timestamp="1583311477031">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="92" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583306361255" />
+    <state width="1320" height="180" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583311477031" />
     <state x="166" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1583307268350">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="166" y="27" width="1024" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583307268350" />
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583256676050">
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583310397449">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583256676050" />
+    <state x="278" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1583310397449" />
     <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1583234059809">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

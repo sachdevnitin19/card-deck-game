@@ -19,8 +19,7 @@ public class EkPatti implements Game {
     private final int maxNoOfPlayers = 52;
 
     //Message string displayed at start of every game
-    String startMsg = "\n" +
-            "$$$$ Welcome to EkPatti $$$$\n" +
+    String startMsg = "\n$$$$ Welcome to EkPatti $$$$\n" +
             "Rules:-\n" +
             "1. Game starts with each player getting one card from the deck.\n" +
             "2. Winner is decided based on the value of the card that he/she is holding. If players have\n" +
@@ -33,6 +32,7 @@ public class EkPatti implements Game {
             "2. Print cards in deck\n" +
             "3. Shuffle deck\n" +
             "4. Find winner\n" +
+            "5. Print player card\n" +
             "0. Return to main menu";
 
 
@@ -67,7 +67,7 @@ public class EkPatti implements Game {
         userChoice = -1;
         System.out.println(this.gameMenu);
         while (userChoice != 0) {
-            userChoice = this.consoleInput.getUserChoice(0, 4);
+            userChoice = this.consoleInput.getUserChoice(0, 5);
             switch (userChoice) {
                 case 0:
                     break;
@@ -83,6 +83,9 @@ public class EkPatti implements Game {
                 case 4:
                     this.findWinner();
                     userChoice = 0;
+                    break;
+                case 5:
+                    this.printPlayerCard();
                     break;
             }
             if (userChoice == 0) {
@@ -102,9 +105,12 @@ public class EkPatti implements Game {
             System.out.println("\nCannot add new players, max limit reached !!!!\n");
             return;
         }
-        System.out.println("Enter no of players (min 2, max " + (maxNoOfPlayers - this.playersList.size()) + "):- ");
-        int numOfPlayers = this.consoleInput.getUserChoice(2, maxNoOfPlayers - this.playersList.size());
-        System.out.println("\n Adding " + numOfPlayers + " players and dealing cards \n");
+        int maxLimit = maxNoOfPlayers - this.playersList.size(),
+                minLimit = maxLimit >= 2 ? 2 : maxLimit;
+
+        System.out.println("Enter no of players (min " + minLimit + ", max " + (maxLimit) + "):- ");
+        int numOfPlayers = this.consoleInput.getUserChoice(minLimit, maxNoOfPlayers - this.playersList.size());
+        System.out.println("\nAdding " + numOfPlayers + " players and dealing cards \n");
         for (int i = 0; i < numOfPlayers; i++) {
             Player currPlayer = new Player();
             currPlayer.addCardsToCurrentHand(this.cardDeckToPlay.drawCardFromDeck(1));
@@ -133,5 +139,12 @@ public class EkPatti implements Game {
         }
 
         System.out.println("\nWinning Player is 'Player " + (winningPlayerIndex + 1) + "' having " + winningPlayerCard);
+    }
+
+    //Print player's current hand
+    public void printPlayerCard() {
+        System.out.println("\nEnter Player no. whose card you wanna print (min 1, max " + this.playersList.size() + "):- ");
+        int userChoice = this.consoleInput.getUserChoice(1, this.playersList.size());
+        this.playersList.get(userChoice - 1).printCurrentHand();
     }
 }
